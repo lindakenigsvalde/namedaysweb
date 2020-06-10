@@ -1,0 +1,184 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Real life task</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="js/namedays.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <div id="find-namdays">
+            <span>Find namedays</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div id="find-names">
+            <span>Names</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div id="find-namdays-by-week">
+            <span>Week</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 offset-md-2 col-lg-3 offset-lg-3">
+          <form>
+            <div class="form-group row justify-content-end">
+              <label for="country" class="col-3 col-md-4 col-form-label">Country</label>
+              <div class="col-9 col-md-8 col-lg-6">
+                <select id="country" class="form-control">
+                </select>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <div id="main" class="home-page-container">
+    <div class="container">
+      <div class="find-nameday-content">
+        <h1>Find day for a name</h1>
+
+        <div>
+          <form>
+            <div class="form-group row">
+              <label for="name" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-6 col-lg-4">
+                <input type="text" class="form-control" id="name" name="name" required="true">
+              </div>
+              <div class="col-2">
+                <button type="submit" class="btn btn-primary">Find</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="date-result-content">
+          <p>Result <span>June 10</span></p>
+        </div>
+
+      </div>
+
+      <div class="names-content">
+        <h1>Names</h1>
+
+        <div>
+          <form>
+            <div class="form-group row">
+              <label for="day" class="col-sm-2 col-form-label">Target day</label>
+              <div class="col-sm-6 col-lg-4">
+                <input type="text" class="form-control" id="day" name="day"  required="true">
+              </div>
+              <div class="col-2">
+                <button type="submit" class="btn btn-primary">Find</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="names-result-content">
+          <table>
+            <tr>
+              <td>Linda</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="namedays-week-content">
+        <h1>Names (week)</h1>
+
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+            <div>
+              <p>Monday</p>
+              <p>10.06.2020</p>
+              <div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div>
+              <p>Tuesday</p>
+              <p>10.06.2020</p>
+              <div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div>
+              <p>Wednesday</p>
+              <p>10.06.2020</p>
+              <div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div>
+              <p>Thursday</p>
+              <p>10.06.2020</p>
+              <div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div>
+              <p>Friday</p>
+              <p>10.06.2020</p>
+              <div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div>
+              <p>Saturday</p>
+              <p>10.06.2020</p>
+              <div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div>
+              <p>Sunday</p>
+              <p>10.06.2020</p>
+              <div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer></footer>
+</body>
+
+</html>
